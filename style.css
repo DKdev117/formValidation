@@ -1,0 +1,12 @@
+:root {
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+}
+
+.form-field.error input {
+  border-color: var(--error-color);
+}
+.form-field.success input {
+  border-color: var(--success-color);
+}
